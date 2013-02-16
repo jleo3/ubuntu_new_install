@@ -1,0 +1,25 @@
+-- Keyboard layout - CTRL key position - Make shift the control key
+-- Download chrome
+-- install git:
+	sudo apt-get -y install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
+	sudo apt-get -y install git
+
+-- install and configure vim:
+	sudo apt-get install -y vim-gui-common
+	sudo apt-get install ctags
+	cd
+	git clone https://github.com/jleo3/the_mans_vim.git
+	ln -s the_mans_vim/.vimrc .vimrc
+
+-- install rvm, ruby, rails:
+	sudo apt-get install -y curl
+	\curl -L https://get.rvm.io | bash -s stable --rails
+	source ~/.rvm/scripts
+	sudo apt-get install libxslt-dev libxml2-dev
+
+-- install evernote:
+	sudo add-apt-repository ppa:nvbn-rm/ppa
+	sudo apt-get update && sudo apt-get -y install everpad
+
+-- install preload
+  sudo apt-get install preload
